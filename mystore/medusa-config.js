@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-
+const path = require('path');
 let ENV_FILE_NAME = "";
 switch (process.env.NODE_ENV) {
   case "production":
@@ -52,6 +52,7 @@ const plugins = [
       },
     },
   },
+
 ];
 
 const modules = {
