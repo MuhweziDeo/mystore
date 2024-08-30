@@ -1,5 +1,4 @@
-import { Github } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
+import { Heading } from "@medusajs/ui"
 
 const Hero = () => {
   return (
@@ -10,24 +9,23 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Ecommerce Starter Template
+            We specialize in getting items from the USA, Dubai, China, Kenya and UK. We
           </Heading>
           <Heading
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Powered by Medusa and Next.js
+           Currently can ship items from car accessories and bikes.
           </Heading>
         </span>
-        <a
-          href="https://github.com/medusajs/nextjs-starter-medusa"
-          target="_blank"
-        >
-          <Button variant="secondary">
-            View on GitHub
-            <Github />
-          </Button>
-        </a>
+
+        <Heading
+            level="h3"
+            className="text-1xl leading-10 text-ui-fg-subtle font-normal"
+          >
+            We always keep our process open to see where you money is spent and only charge a small fee per item depending on the product.
+            </Heading>
+       
       </div>
     </div>
   )
